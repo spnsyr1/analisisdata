@@ -10,7 +10,7 @@ min_date = df['dteday'].min()
 max_date = df['dteday'].max()
  
 with st.sidebar:
-    st.image('logo_sepeda.png')
+    st.image('dashboard/logo_sepeda.png')
     st.subheader('Rentang Waktu')
     start_date = st.date_input(
         label='Dari',
